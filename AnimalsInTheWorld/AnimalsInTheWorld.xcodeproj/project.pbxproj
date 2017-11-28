@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E55A97411FCD547700D69251 /* bleu.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97401FCD547700D69251 /* bleu.png */; };
+		E55A97431FCD548000D69251 /* terre.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97421FCD548000D69251 /* terre.png */; };
 		E5CD5F1A1FC851D8004824F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD5F191FC851D8004824F1 /* AppDelegate.swift */; };
 		E5CD5F1C1FC851D8004824F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD5F1B1FC851D8004824F1 /* ViewController.swift */; };
 		E5CD5F1F1FC851D8004824F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CD5F1D1FC851D8004824F1 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E55A97401FCD547700D69251 /* bleu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bleu.png; sourceTree = "<group>"; };
+		E55A97421FCD548000D69251 /* terre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terre.png; sourceTree = "<group>"; };
 		E5CD5F161FC851D8004824F1 /* AnimalsInTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsInTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CD5F191FC851D8004824F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5CD5F1B1FC851D8004824F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				E5CD5F191FC851D8004824F1 /* AppDelegate.swift */,
 				E5CD5F1B1FC851D8004824F1 /* ViewController.swift */,
 				E5CD5F1D1FC851D8004824F1 /* Main.storyboard */,
+				E55A97421FCD548000D69251 /* terre.png */,
+				E55A97401FCD547700D69251 /* bleu.png */,
 				E5CD5F201FC851D8004824F1 /* Assets.xcassets */,
 				E5CD5F221FC851D8004824F1 /* LaunchScreen.storyboard */,
 				E5CD5F251FC851D8004824F1 /* Info.plist */,
@@ -235,6 +241,8 @@
 				E5CD5F241FC851D8004824F1 /* LaunchScreen.storyboard in Resources */,
 				E5CD5F211FC851D8004824F1 /* Assets.xcassets in Resources */,
 				E5CD5F1F1FC851D8004824F1 /* Main.storyboard in Resources */,
+				E55A97411FCD547700D69251 /* bleu.png in Resources */,
+				E55A97431FCD548000D69251 /* terre.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
