@@ -142,10 +142,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cette application est ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HS-eS-xXF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="headTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HS-eS-xXF">
                                 <rect key="frame" x="16" y="20" width="343" height="463"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="463" id="KOs-oT-wio"/>
+                                    <constraint firstAttribute="width" constant="343" id="PNB-2z-HWe"/>
+                                </constraints>
+                                <mutableString key="text" base64-UTF8="YES">
+Q2V0dGUgYXBwbGljYXRpb24gYSBwb3VyIGJ1dCBkZSBsaXN0ZXIgbGVzIGFuaW1hdXggcHLDqXNlbnRz
+IHN1ciBjaGFxdWUgY29udGluZW50LuKAqOKAqERpdmVyc2VzIGluZm9ybWF0aW9ucyBzZXJvbnQgZGlz
+cG9uaWJsZXMgc3VyIGNoYXF1ZSBhbmltYWwgY29tbWUgcGFyIGV4ZW1wbGUgbCdlc3DDqXJhbmNlIGRl
+IHZpZSwgbGUgcG9pZHMgZXQgbGEgdGFpbGxlIG1veWVubmUgb3UgZW5jb3JlIHNpIGwnZXNww6hjZSBl
+c3QgZW4gdm9pZSBkJ2V4dGluY3Rpb24uLi7igKgc4oCoQ2V0dGUgYXBwbGljYXRpb24gw6Agw6l0w6kg
+Y3LDqcOpZSBkYW5zIGxlIGNhZHJlIGQndW4gcHJvamV0IGQndW5lIGxpY2VuY2UgcHJvZmVzc2lvbm5l
+bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -253,6 +265,6 @@
         <image name="uga.png" width="224" height="145"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jGO-FM-u2t"/>
+        <segue reference="Gbh-e7-Dmq"/>
     </inferredMetricsTieBreakers>
 </document>
