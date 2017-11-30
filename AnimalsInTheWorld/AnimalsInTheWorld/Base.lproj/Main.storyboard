@@ -148,7 +148,7 @@
                                     <constraint firstAttribute="height" constant="463" id="KOs-oT-wio"/>
                                     <constraint firstAttribute="width" constant="343" id="PNB-2z-HWe"/>
                                 </constraints>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 Q2V0dGUgYXBwbGljYXRpb24gYSBwb3VyIGJ1dCBkZSBsaXN0ZXIgbGVzIGFuaW1hdXggcHLDqXNlbnRz
 IHN1ciBjaGFxdWUgY29udGluZW50LuKAqOKAqERpdmVyc2VzIGluZm9ybWF0aW9ucyBzZXJvbnQgZGlz
 cG9uaWJsZXMgc3VyIGNoYXF1ZSBhbmltYWwgY29tbWUgcGFyIGV4ZW1wbGUgbCdlc3DDqXJhbmNlIGRl
@@ -156,7 +156,7 @@ IHZpZSwgbGUgcG9pZHMgZXQgbGEgdGFpbGxlIG1veWVubmUgb3UgZW5jb3JlIHNpIGwnZXNww6hjZSBl
 c3QgZW4gdm9pZSBkJ2V4dGluY3Rpb24uLi7igKgc4oCoQ2V0dGUgYXBwbGljYXRpb24gw6Agw6l0w6kg
 Y3LDqcOpZSBkYW5zIGxlIGNhZHJlIGQndW4gcHJvamV0IGQndW5lIGxpY2VuY2UgcHJvZmVzc2lvbm5l
 bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
