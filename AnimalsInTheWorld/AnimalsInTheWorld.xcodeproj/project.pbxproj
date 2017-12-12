@@ -25,8 +25,6 @@
 		E5CD5F1F1FC851D8004824F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CD5F1D1FC851D8004824F1 /* Main.storyboard */; };
 		E5CD5F211FC851D8004824F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CD5F201FC851D8004824F1 /* Assets.xcassets */; };
 		E5CD5F241FC851D8004824F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CD5F221FC851D8004824F1 /* LaunchScreen.storyboard */; };
-		E5CD5F2F1FC851D8004824F1 /* AnimalsInTheWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD5F2E1FC851D8004824F1 /* AnimalsInTheWorldTests.swift */; };
-		E5CD5F3A1FC851D8004824F1 /* AnimalsInTheWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD5F391FC851D8004824F1 /* AnimalsInTheWorldUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,11 +66,7 @@
 		E5CD5F231FC851D8004824F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5CD5F251FC851D8004824F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CD5F2A1FC851D8004824F1 /* AnimalsInTheWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsInTheWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5CD5F2E1FC851D8004824F1 /* AnimalsInTheWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsInTheWorldTests.swift; sourceTree = "<group>"; };
-		E5CD5F301FC851D8004824F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CD5F351FC851D8004824F1 /* AnimalsInTheWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsInTheWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5CD5F391FC851D8004824F1 /* AnimalsInTheWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsInTheWorldUITests.swift; sourceTree = "<group>"; };
-		E5CD5F3B1FC851D8004824F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				E5CD5F181FC851D8004824F1 /* AnimalsInTheWorld */,
-				E5CD5F2D1FC851D8004824F1 /* AnimalsInTheWorldTests */,
-				E5CD5F381FC851D8004824F1 /* AnimalsInTheWorldUITests */,
 				E5CD5F171FC851D8004824F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,24 +136,6 @@
 				E5CD5F251FC851D8004824F1 /* Info.plist */,
 			);
 			path = AnimalsInTheWorld;
-			sourceTree = "<group>";
-		};
-		E5CD5F2D1FC851D8004824F1 /* AnimalsInTheWorldTests */ = {
-			isa = PBXGroup;
-			children = (
-				E5CD5F2E1FC851D8004824F1 /* AnimalsInTheWorldTests.swift */,
-				E5CD5F301FC851D8004824F1 /* Info.plist */,
-			);
-			path = AnimalsInTheWorldTests;
-			sourceTree = "<group>";
-		};
-		E5CD5F381FC851D8004824F1 /* AnimalsInTheWorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E5CD5F391FC851D8004824F1 /* AnimalsInTheWorldUITests.swift */,
-				E5CD5F3B1FC851D8004824F1 /* Info.plist */,
-			);
-			path = AnimalsInTheWorldUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CD5F2F1FC851D8004824F1 /* AnimalsInTheWorldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CD5F3A1FC851D8004824F1 /* AnimalsInTheWorldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
