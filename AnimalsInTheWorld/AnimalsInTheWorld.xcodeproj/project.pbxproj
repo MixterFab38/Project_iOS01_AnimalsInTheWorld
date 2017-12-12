@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E533E8FA1FE02A85001685D0 /* GMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533E8F91FE02A85001685D0 /* GMapViewController.swift */; };
+		E533E8FC1FE02E76001685D0 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533E8FB1FE02E76001685D0 /* IntroductionViewController.swift */; };
 		E55A97411FCD547700D69251 /* bleu.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97401FCD547700D69251 /* bleu.png */; };
 		E55A97431FCD548000D69251 /* terre.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97421FCD548000D69251 /* terre.png */; };
 		E55A97451FCD5F2B00D69251 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97441FCD5F2A00D69251 /* title.png */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		E533E8F91FE02A85001685D0 /* GMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMapViewController.swift; sourceTree = "<group>"; };
+		E533E8FB1FE02E76001685D0 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		E55A97401FCD547700D69251 /* bleu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bleu.png; sourceTree = "<group>"; };
 		E55A97421FCD548000D69251 /* terre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terre.png; sourceTree = "<group>"; };
 		E55A97441FCD5F2A00D69251 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				E5CD5F191FC851D8004824F1 /* AppDelegate.swift */,
 				E5CD5F1B1FC851D8004824F1 /* ViewController.swift */,
 				E5CD5F1D1FC851D8004824F1 /* Main.storyboard */,
+				E533E8FB1FE02E76001685D0 /* IntroductionViewController.swift */,
 				E533E8F91FE02A85001685D0 /* GMapViewController.swift */,
 				E5AC38CA1FCEB4D300D85821 /* oceanie.png */,
 				E5AC38C71FCEB4CD00D85821 /* europe.png */,
@@ -291,6 +294,7 @@
 				E533E8FA1FE02A85001685D0 /* GMapViewController.swift in Sources */,
 				E5CD5F1C1FC851D8004824F1 /* ViewController.swift in Sources */,
 				E5CD5F1A1FC851D8004824F1 /* AppDelegate.swift in Sources */,
+				E533E8FC1FE02E76001685D0 /* IntroductionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
