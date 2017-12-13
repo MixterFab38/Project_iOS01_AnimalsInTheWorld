@@ -13,6 +13,14 @@
 		E55A97431FCD548000D69251 /* terre.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97421FCD548000D69251 /* terre.png */; };
 		E55A97451FCD5F2B00D69251 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97441FCD5F2A00D69251 /* title.png */; };
 		E55A97471FCD71DB00D69251 /* uga.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97461FCD71DB00D69251 /* uga.png */; };
+		E5841AD91FE13C6800DFD2CD /* AfriqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841AD81FE13C6800DFD2CD /* AfriqueViewController.swift */; };
+		E5841ADB1FE13CA100DFD2CD /* AmeriqueNordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841ADA1FE13CA100DFD2CD /* AmeriqueNordViewController.swift */; };
+		E5841ADD1FE13D4D00DFD2CD /* AmeriqueSudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841ADC1FE13D4D00DFD2CD /* AmeriqueSudViewController.swift */; };
+		E5841ADF1FE13DFE00DFD2CD /* AntarctiqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841ADE1FE13DFE00DFD2CD /* AntarctiqueViewController.swift */; };
+		E5841AE11FE13E3400DFD2CD /* ArctiqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841AE01FE13E3400DFD2CD /* ArctiqueViewController.swift */; };
+		E5841AE51FE13E9C00DFD2CD /* EuropeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841AE41FE13E9C00DFD2CD /* EuropeViewController.swift */; };
+		E5841AE71FE13EE400DFD2CD /* AsieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841AE61FE13EE400DFD2CD /* AsieViewController.swift */; };
+		E5841AE91FE13EFC00DFD2CD /* OceanieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5841AE81FE13EFC00DFD2CD /* OceanieViewController.swift */; };
 		E5AC38C01FCEB4C300D85821 /* ameriquenord.png in Resources */ = {isa = PBXBuildFile; fileRef = E5AC38BA1FCEB4C300D85821 /* ameriquenord.png */; };
 		E5AC38C11FCEB4C300D85821 /* ameriquesud.png in Resources */ = {isa = PBXBuildFile; fileRef = E5AC38BB1FCEB4C300D85821 /* ameriquesud.png */; };
 		E5AC38C21FCEB4C300D85821 /* arctique.gif in Resources */ = {isa = PBXBuildFile; fileRef = E5AC38BC1FCEB4C300D85821 /* arctique.gif */; };
@@ -53,6 +61,14 @@
 		E55A97421FCD548000D69251 /* terre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terre.png; sourceTree = "<group>"; };
 		E55A97441FCD5F2A00D69251 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		E55A97461FCD71DB00D69251 /* uga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uga.png; sourceTree = "<group>"; };
+		E5841AD81FE13C6800DFD2CD /* AfriqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfriqueViewController.swift; sourceTree = "<group>"; };
+		E5841ADA1FE13CA100DFD2CD /* AmeriqueNordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriqueNordViewController.swift; sourceTree = "<group>"; };
+		E5841ADC1FE13D4D00DFD2CD /* AmeriqueSudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriqueSudViewController.swift; sourceTree = "<group>"; };
+		E5841ADE1FE13DFE00DFD2CD /* AntarctiqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntarctiqueViewController.swift; sourceTree = "<group>"; };
+		E5841AE01FE13E3400DFD2CD /* ArctiqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArctiqueViewController.swift; sourceTree = "<group>"; };
+		E5841AE41FE13E9C00DFD2CD /* EuropeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeViewController.swift; sourceTree = "<group>"; };
+		E5841AE61FE13EE400DFD2CD /* AsieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsieViewController.swift; sourceTree = "<group>"; };
+		E5841AE81FE13EFC00DFD2CD /* OceanieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanieViewController.swift; sourceTree = "<group>"; };
 		E5AC38BA1FCEB4C300D85821 /* ameriquenord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ameriquenord.png; sourceTree = "<group>"; };
 		E5AC38BB1FCEB4C300D85821 /* ameriquesud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ameriquesud.png; sourceTree = "<group>"; };
 		E5AC38BC1FCEB4C300D85821 /* arctique.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arctique.gif; sourceTree = "<group>"; };
@@ -122,6 +138,14 @@
 				E5CD5F191FC851D8004824F1 /* AppDelegate.swift */,
 				E5CD5F1B1FC851D8004824F1 /* ViewController.swift */,
 				E5CD5F1D1FC851D8004824F1 /* Main.storyboard */,
+				E5841AE81FE13EFC00DFD2CD /* OceanieViewController.swift */,
+				E5841AE61FE13EE400DFD2CD /* AsieViewController.swift */,
+				E5841AE41FE13E9C00DFD2CD /* EuropeViewController.swift */,
+				E5841AE01FE13E3400DFD2CD /* ArctiqueViewController.swift */,
+				E5841ADE1FE13DFE00DFD2CD /* AntarctiqueViewController.swift */,
+				E5841ADC1FE13D4D00DFD2CD /* AmeriqueSudViewController.swift */,
+				E5841ADA1FE13CA100DFD2CD /* AmeriqueNordViewController.swift */,
+				E5841AD81FE13C6800DFD2CD /* AfriqueViewController.swift */,
 				E533E8FB1FE02E76001685D0 /* IntroductionViewController.swift */,
 				E533E8F91FE02A85001685D0 /* GMapViewController.swift */,
 				E5AC38CA1FCEB4D300D85821 /* oceanie.png */,
@@ -291,9 +315,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5841AD91FE13C6800DFD2CD /* AfriqueViewController.swift in Sources */,
+				E5841AE71FE13EE400DFD2CD /* AsieViewController.swift in Sources */,
+				E5841AE11FE13E3400DFD2CD /* ArctiqueViewController.swift in Sources */,
 				E533E8FA1FE02A85001685D0 /* GMapViewController.swift in Sources */,
+				E5841ADF1FE13DFE00DFD2CD /* AntarctiqueViewController.swift in Sources */,
 				E5CD5F1C1FC851D8004824F1 /* ViewController.swift in Sources */,
 				E5CD5F1A1FC851D8004824F1 /* AppDelegate.swift in Sources */,
+				E5841ADD1FE13D4D00DFD2CD /* AmeriqueSudViewController.swift in Sources */,
+				E5841ADB1FE13CA100DFD2CD /* AmeriqueNordViewController.swift in Sources */,
+				E5841AE91FE13EFC00DFD2CD /* OceanieViewController.swift in Sources */,
+				E5841AE51FE13E9C00DFD2CD /* EuropeViewController.swift in Sources */,
 				E533E8FC1FE02E76001685D0 /* IntroductionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

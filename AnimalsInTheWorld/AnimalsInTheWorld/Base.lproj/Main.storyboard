@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dvp-GC-7PN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="941.60000000000002" y="37.331334332833585"/>
+            <point key="canvasLocation" x="966" y="422"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="dq3-eo-pEE">
@@ -74,7 +74,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFn-Xp-scR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1788" y="391.75412293853077"/>
+            <point key="canvasLocation" x="-18" y="1124"/>
+        </scene>
+        <!--Europe View Controller-->
+        <scene sceneID="BHK-zo-vfC">
+            <objects>
+                <viewController id="6XS-gr-FBZ" customClass="EuropeViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EAT-MB-CsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UkO-yK-KtX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hh7-aB-sma" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2849" y="898"/>
+        </scene>
+        <!--Oceanie View Controller-->
+        <scene sceneID="EtG-zZ-iXA">
+            <objects>
+                <viewController id="Xmh-Ua-f2Z" customClass="OceanieViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rVE-Hq-haw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="k9w-MF-8mJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3rQ-YL-79f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3822" y="897"/>
         </scene>
         <!--Introduction View Controller-->
         <scene sceneID="ssR-Zw-TCh">
@@ -122,7 +152,7 @@ bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCd-YQ-FIv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848.79999999999995" y="-694.00299850074964"/>
+            <point key="canvasLocation" x="-796" y="344"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q0G-Cl-qja">
@@ -136,41 +166,65 @@ bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
                                 <rect key="frame" x="45" y="28" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="afrique.png"/>
+                                <connections>
+                                    <segue destination="1jb-3x-USF" kind="show" id="EKw-1q-57Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4J-pn-sgb">
                                 <rect key="frame" x="45" y="186" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="ameriquenord.png"/>
+                                <state key="normal" backgroundImage="ameriquesud.png"/>
+                                <connections>
+                                    <segue destination="k08-xT-i5n" kind="show" id="NlY-7u-XjK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYy-L2-rur">
                                 <rect key="frame" x="230" y="186" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="antarctique.png"/>
+                                <connections>
+                                    <segue destination="WZB-ea-RcR" kind="show" id="bc8-ae-R3f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZU-nv-Je3">
                                 <rect key="frame" x="45" y="344" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="arctique.gif"/>
+                                <connections>
+                                    <segue destination="Jd1-sS-HSX" kind="show" id="2SO-0l-r7H"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4Q-JR-SWM">
                                 <rect key="frame" x="230" y="344" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="asie.png"/>
+                                <connections>
+                                    <segue destination="1sz-da-UUR" kind="show" id="kky-wH-zhx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bit-8w-XYm">
                                 <rect key="frame" x="45" y="502" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="europe.png"/>
+                                <connections>
+                                    <segue destination="6XS-gr-FBZ" kind="show" id="Zc1-ha-ZZu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKh-kV-aaK">
                                 <rect key="frame" x="230" y="502" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="oceanie.png"/>
+                                <connections>
+                                    <segue destination="Xmh-Ua-f2Z" kind="show" id="mT5-u0-43F"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0Z-A6-Jtx">
                                 <rect key="frame" x="230" y="28" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="ameriquenord.png"/>
+                                <connections>
+                                    <segue destination="3fN-KF-ypE" kind="show" id="yjk-d7-cFI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JnC-Oz-OUJ">
                                 <rect key="frame" x="153" y="612" width="69" height="44"/>
@@ -192,10 +246,101 @@ bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
             </objects>
             <point key="canvasLocation" x="1788" y="-338.68065967016497"/>
         </scene>
+        <!--Antarctique View Controller-->
+        <scene sceneID="m4Q-cj-AdG">
+            <objects>
+                <viewController id="WZB-ea-RcR" customClass="AntarctiqueViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Hm-2R-7h3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="JIK-WQ-d29"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yd6-CN-odv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2850" y="36"/>
+        </scene>
+        <!--Arctique View Controller-->
+        <scene sceneID="Vlf-J6-mfH">
+            <objects>
+                <viewController id="Jd1-sS-HSX" customClass="ArctiqueViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="di6-Dg-RcL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="2Ur-ac-nAg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gGs-TL-Sf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3822" y="37"/>
+        </scene>
+        <!--Asie View Controller-->
+        <scene sceneID="L75-rV-Ib2">
+            <objects>
+                <viewController id="1sz-da-UUR" customClass="AsieViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XYB-mc-rZK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="yG0-Qp-0i9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYC-dX-R85" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4769" y="36"/>
+        </scene>
+        <!--Afrique View Controller-->
+        <scene sceneID="5Ou-ZX-L4V">
+            <objects>
+                <viewController id="1jb-3x-USF" customClass="AfriqueViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cc0-J6-0xG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Rz0-Ys-nMD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UVA-An-dUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2849" y="-1100"/>
+        </scene>
+        <!--Amerique Nord View Controller-->
+        <scene sceneID="pJ9-jM-h6C">
+            <objects>
+                <viewController id="3fN-KF-ypE" customClass="AmeriqueNordViewController" customModule="AnimalsInTheWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hUz-aB-GRe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="wQX-hY-G2n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RcY-pG-DBn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3822" y="-1100"/>
+        </scene>
+        <!--Amerique Sud View Controller-->
+        <scene sceneID="srJ-q8-My3">
+            <objects>
+                <viewController id="k08-xT-i5n" customClass="AmeriqueSudViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EHE-ht-8J1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4272603989" green="0.6231659651" blue="0.85166579480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4cz-uc-tHb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hng-kM-SpW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4769" y="-1099"/>
+        </scene>
     </scenes>
     <resources>
         <image name="afrique.png" width="150" height="150"/>
         <image name="ameriquenord.png" width="550" height="550"/>
+        <image name="ameriquesud.png" width="541" height="541"/>
         <image name="antarctique.png" width="541" height="541"/>
         <image name="arctique.gif" width="728" height="728"/>
         <image name="asie.png" width="150" height="150"/>
@@ -204,6 +349,6 @@ bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
         <image name="uga.png" width="224" height="145"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jGO-FM-u2t"/>
+        <segue reference="fjL-RI-MWk"/>
     </inferredMetricsTieBreakers>
 </document>
