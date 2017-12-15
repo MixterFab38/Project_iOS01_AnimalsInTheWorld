@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50E5F511FE3DB1B00BBB1BF /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E5F501FE3DB1B00BBB1BF /* APIController.swift */; };
 		E533E8FA1FE02A85001685D0 /* GMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533E8F91FE02A85001685D0 /* GMapViewController.swift */; };
 		E533E8FC1FE02E76001685D0 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533E8FB1FE02E76001685D0 /* IntroductionViewController.swift */; };
 		E55A97411FCD547700D69251 /* bleu.png in Resources */ = {isa = PBXBuildFile; fileRef = E55A97401FCD547700D69251 /* bleu.png */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E50E5F501FE3DB1B00BBB1BF /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		E533E8F91FE02A85001685D0 /* GMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMapViewController.swift; sourceTree = "<group>"; };
 		E533E8FB1FE02E76001685D0 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		E55A97401FCD547700D69251 /* bleu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bleu.png; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		E5CD5F181FC851D8004824F1 /* AnimalsInTheWorld */ = {
 			isa = PBXGroup;
 			children = (
+				E50E5F501FE3DB1B00BBB1BF /* APIController.swift */,
 				E5CD5F191FC851D8004824F1 /* AppDelegate.swift */,
 				E5CD5F1B1FC851D8004824F1 /* ViewController.swift */,
 				E5CD5F1D1FC851D8004824F1 /* Main.storyboard */,
@@ -318,6 +321,7 @@
 				E5841AD91FE13C6800DFD2CD /* AfriqueViewController.swift in Sources */,
 				E5841AE71FE13EE400DFD2CD /* AsieViewController.swift in Sources */,
 				E5841AE11FE13E3400DFD2CD /* ArctiqueViewController.swift in Sources */,
+				E50E5F511FE3DB1B00BBB1BF /* APIController.swift in Sources */,
 				E533E8FA1FE02A85001685D0 /* GMapViewController.swift in Sources */,
 				E5841ADF1FE13DFE00DFD2CD /* AntarctiqueViewController.swift in Sources */,
 				E5CD5F1C1FC851D8004824F1 /* ViewController.swift in Sources */,
