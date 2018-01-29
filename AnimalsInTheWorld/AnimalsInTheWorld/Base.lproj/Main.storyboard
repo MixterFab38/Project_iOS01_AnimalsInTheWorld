@@ -212,7 +212,7 @@ bGxlIFNNSU4gw6AgbCdJVVQxIGRlIEdyZW5vYmxlLuKAqA
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Asie" backgroundImage="asie.png">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="1sz-da-UUR" kind="show" id="kky-wH-zhx"/>

@@ -10,14 +10,10 @@ import Foundation
 
 class APIController {
     
-    func searchItunesFor(searchTerm: String) {
+    func searchGBIFFor(searchTerm: String) {
         
-        // L'API iTunes demande des termes multiples, séparés par des + , alors remplacez les espaces par des +
-        let itunesSearchTerm = searchTerm.stringByReplacingOccurrencesOfString(" ", withString: "+", options: NSStringCompareOptions.CaseInsensitiveSearch, range: nil)
-        
-        // Maintenant échappez tout ce qui n'est pas URL-friendly
         if let escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding) {
-            let urlPath = "https://itunes.apple.com/search?term=\(escapedSearchTerm)&media=software"
+            let urlPath = "https://"
             let url: NSURL = NSURL(string: urlPath)
             let session = NSURLSession.sharedSession()
             let task = session.dataTaskWithURL(url!, completionHandler: {data, response, error -> Void in
