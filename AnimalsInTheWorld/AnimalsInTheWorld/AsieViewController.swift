@@ -8,28 +8,41 @@
 
 import UIKit
 
+struct Country: Decodable {
+    let name: String
+}
+
+
 class AsieViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var labelTest: UILabel!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let url = "https://restcountries.eu/rest/v2/region/Asia"
+        let urlObj = URL(string: url)
+       
+        
+        URLSession.shared.dataTask(with: urlObj!) {(data, response, error) in
+            do
+            {
+                var countries = try JSONDecoder().decode([Country].self, from: data!)
+                
+                for country in countries
+                {
+                    self.labelTest.text = self.labelTest.text! + country.name + "\n";
+                    print(country.name)
+                }
+            }catch {
+                print("We got an error")
+            }
+        }.resume()
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
